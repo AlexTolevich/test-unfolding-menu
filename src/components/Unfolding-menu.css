@@ -22,11 +22,10 @@
 .menu__item_is_header {
   composes: menu__item;
   font-size: 16px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .menu__item_is_mouse-over:hover {
-  font-weight: bold;
   transform: scale(1.05);
 }
 

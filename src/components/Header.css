@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: baseline;
+}
+
+.header__title {
+  margin: 0;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-basis: 20%;
+}
+
+.header__subtitle {
+  margin: 0 15px 0 0;
+  color: #a8a4a4;
+}
+
+.header__image {
+  object-fit: contain;
+  max-width: 36px;
+}
